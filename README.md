@@ -32,3 +32,10 @@ Maps the interaction between the **VIX Index (26.90)** and **Session Entropy (1.
 * **Beta Flush:** COIN -9.76% ($181.04) | EL -9.85% ($71.48)
 
 *Status: Node Operational | Location: Rio de Janeiro | Target: EmploymentMission2026*
+
+#### 3. Regime Transition Analysis (Asia Pivot)
+Tracks the transition from the **1.84-bit Coherent Sell-off** to the **2.45-bit Decoherent Recovery** during the Tokyo open.
+![Regime Comparison](docs/images/Regime_Comparison.png)
+
+---
+*Last Audit Update: 18:00 BRT (Tokyo Pre-Noon Session)*

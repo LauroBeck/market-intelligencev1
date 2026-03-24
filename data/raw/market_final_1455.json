@@ -1,0 +1,27 @@
+{
+    "timestamp": "2026-03-24 15:51:00-0400",
+    "indices": {
+        "NASDAQ": {
+            "price": 21759.22,
+            "change_pct": -0.85
+        },
+        "S&P500": {
+            "price": 6555.15,
+            "change_pct": -0.39
+        },
+        "DOW": {
+            "price": 46123.59,
+            "change_pct": -0.18
+        }
+    },
+    "macro": {
+        "VIX": 26.9,
+        "2YR_YIELD": 3.92,
+        "GOLD_SPOT": 4399.49
+    },
+    "top_news": [
+        "Citadel Securities nets record $12B haul in 2025",
+        "Stocks bounce from lows on hopes for US-Iran talks",
+        "Iran says non-hostile ships can cross Hormuz"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-03-24 15:48:00-0400",
+    "indices": {
+        "NASDAQ": {
+            "price": 21767.64,
+            "change_pct": -0.82
+        },
+        "DOW": {
+            "price": 46161.82,
+            "change_pct": -0.1
+        },
+        "S&P500": {
+            "price": 6559.39,
+            "change_pct": -0.33
+        }
+    },
+    "fx": {
+        "GBP-USD": 1.3384,
+        "USD-CAD": 1.3763,
+        "USD-CNY": 6.893
+    },
+    "signals": {
+        "vix_multiplier": 1.4,
+        "energy_rotation": "CRITICAL"
+    }
+}

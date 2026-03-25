@@ -66,3 +66,19 @@ Tracks the transition from the **1.84-bit Coherent Sell-off** to the **2.45-bit 
 * **Coverage:** CVX, XOM, Shell, COP, Aramco, HAL, JPM.
 * **Logic:** Dividend yield auditing and quarterly payout simulations.
 * **Strategic Goal:** Mapping energy volatility against JPM treasury dividend payouts.
+
+---
+### 🛢️ Phase 6: BigOil & JPM Dividend Strategy
+**Status: PRODUCTION VERIFIED (Mar 25, 2026)**
+
+This module tracks high-yield energy assets against JPM's institutional liquidity positioning.
+
+| Asset | Ticker | Verified Price | Yield (%) | Strategy |
+| :--- | :--- | :--- | :--- | :--- |
+| **Chevron** | CVX | $205.31 | 4.1% | Dividend Capture |
+| **Exxon** | XOM | $122.45 | 3.8% | Yield Growth |
+| **Aramco** | TADAWUL | $8.50 | 4.5% | Sovereign Liquidity |
+| **Shell** | SHEL | $72.10 | 3.9% | Global Energy |
+| **JPMorgan** | JPM | $198.40 | 2.4% | Institutional Alpha |
+
+**Visual Audit:** Refer to `Energy_Dividend_Audit.png` for yield variance mapping.

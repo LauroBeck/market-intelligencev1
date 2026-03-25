@@ -14,6 +14,7 @@ TICKER=${1:-"IBM"}
 MODE=${2:-"BDP"}
 
 case $MODE in
+    "OIL") ./venv/bin/python3 big_oil_yield.py ;;
     "JPM") ./venv/bin/python3 bbg_jpm_cloud.py ;;
     "SUMM") ./venv/bin/python3 bbg_summary.py ;;
     "AISP") ./venv/bin/python3 bbg_treasury.py ;;

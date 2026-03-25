@@ -60,3 +60,9 @@ Tracks the transition from the **1.84-bit Coherent Sell-off** to the **2.45-bit 
 *Audit verified against the March 25, 2026 institutional baseline.*
 * **Energy Sector:** Chevron (CVX) tracked at $205.31.
 * **Sector Expansion:** Integrated CVX Energy Analytics ($205.31).
+
+---
+### 🛢️ Phase 6: BigOil & JPM Dividend Strategy
+* **Coverage:** CVX, XOM, Shell, COP, Aramco, HAL, JPM.
+* **Logic:** Dividend yield auditing and quarterly payout simulations.
+* **Strategic Goal:** Mapping energy volatility against JPM treasury dividend payouts.

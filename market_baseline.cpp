@@ -2,22 +2,25 @@
 #include <iomanip>
 
 struct MarketSnapshot {
-    // Verified 2026-03-25 16:30 BRT Baseline
-    double sp500 = 6604.82;           // Replaces 6593.16
-    double ibm_stock = 241.49;        // Replaces 241.40
+    // Verified 2026-03-25 Closing Benchmarks
+    double sp500 = 6596.11;           // S&P 500 Index
+    double nasdaq = 21929.62;         // NASDAQ Composite
+    double ibm_stock = 241.40;        // IBM:US
+    double cvx_stock = 205.31;        // Chevron Corp
     
-    // Infrastructure Audit: JPM 5k Server Cluster
-    double latency_reduction_ms = 10.0; // From 45ms to 35ms
-    double throughput_gain = 0.286;     // +28.6% efficiency
+    // Institutional Infrastructure Metrics
+    double throughput_gain = 0.286;   // +28.6% JPM Cluster Efficiency
+    double gold_spot = 4517.36;       // Precious Metals Hedge
 };
 
 void log_audit(MarketSnapshot current) {
-    std::cout << "\033[1;32m[AUDIT] MARCH 2026 PRODUCTION BASELINE\033[0m" << std::endl;
-    std::cout << "S&P 500 Index:    " << std::fixed << std::setprecision(2) << current.sp500 << std::endl;
-    std::cout << "IBM Asset Value:  $" << current.ibm_stock << std::endl;
+    std::cout << "\033[1;36m[SYSTEM] LAURO BECK, DBA | ARCHITECT PORTFOLIO\033[0m" << std::endl;
+    std::cout << "S&P 500:          " << current.sp500 << " (+0.61%)" << std::endl;
+    std::cout << "NASDAQ:           " << current.nasdaq << " (+0.77%)" << std::endl;
+    std::cout << "IBM Baseline:     $" << current.ibm_stock << std::endl;
+    std::cout << "CVX Momentum:     $" << current.cvx_stock << std::endl;
     std::cout << "------------------------------------------" << std::endl;
-    std::cout << "JPM Cloud Delta:  -" << current.latency_reduction_ms << "ms Latency" << std::endl;
-    std::cout << "Throughput Gain:  " << (current.throughput_gain * 100) << "%" << std::endl;
+    std::cout << "\033[1;32m[JPM AUDIT] Infrastructure Alpha: +" << (current.throughput_gain * 100) << "%\033[0m" << std::endl;
 }
 
 int main() {
